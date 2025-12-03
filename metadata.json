@@ -1,0 +1,59 @@
+{
+  "best_model": "LogisticRegression",
+  "cv_summary": {
+    "LogisticRegression": {
+      "scoring": "roc_auc",
+      "mean": 1.0,
+      "std": 7.021666937153402e-17,
+      "all_scores": [
+        0.9999999999999999,
+        0.9999999999999999,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "RandomForest": {
+      "scoring": "roc_auc",
+      "mean": 1.0,
+      "std": 0.0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "XGBoost": {
+      "scoring": "roc_auc",
+      "mean": 1.0,
+      "std": 0.0,
+      "all_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "eval_results": {
+    "LogisticRegression": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      1566\n           1       1.00      1.00      1.00     10120\n\n    accuracy                           1.00     11686\n   macro avg       1.00      1.00      1.00     11686\nweighted avg       1.00      1.00      1.00     11686\n"
+    },
+    "RandomForest": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      1566\n           1       1.00      1.00      1.00     10120\n\n    accuracy                           1.00     11686\n   macro avg       1.00      1.00      1.00     11686\nweighted avg       1.00      1.00      1.00     11686\n"
+    },
+    "XGBoost": {
+      "accuracy": 1.0,
+      "roc_auc": 1.0,
+      "report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00      1566\n           1       1.00      1.00      1.00     10120\n\n    accuracy                           1.00     11686\n   macro avg       1.00      1.00      1.00     11686\nweighted avg       1.00      1.00      1.00     11686\n"
+    }
+  },
+  "timestamp": "2025-12-02T21:46:46.610260"
+}
